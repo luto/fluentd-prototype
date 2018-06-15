@@ -7,3 +7,7 @@ services:
     environment:
       POSTGRES_USER: fluentd
       POSTGRES_PASSWORD: fluentd
+  nginx-client:
+    build: nginx-client
+  nginx:
+    image: nginx
