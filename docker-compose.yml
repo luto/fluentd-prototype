@@ -1,0 +1,11 @@
+version: '3'
+services:
+  fluentd:
+    build: .
+    links:
+    - postgres
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: fluentd
+      POSTGRES_PASSWORD: fluentd

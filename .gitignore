@@ -1,0 +1,19 @@
+# Created by https://www.gitignore.io/api/visualstudiocode,vim
+
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+### VisualStudioCode ###
+.vscode
+.history
+
+# End of https://www.gitignore.io/api/visualstudiocode,vim
