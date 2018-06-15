@@ -2,6 +2,8 @@ version: '3'
 services:
   fluentd:
     build: fluentd
+    volumes:
+      - nginx-logs:/var/log/nginx/
   postgres:
     image: postgres
     environment:
@@ -10,4 +12,9 @@ services:
   nginx-client:
     build: nginx-client
   nginx:
-    image: nginx
+    build: nginx
+    volumes:
+      - nginx-logs:/var/log/nginx/
+
+volumes:
+  nginx-logs:
