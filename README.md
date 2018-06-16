@@ -10,3 +10,5 @@ and aims to accoplish the following tasks:
 * dump those logs to stdout
 
 Run `docker-compose up` and watch the fluentd output :)
+
+This repository is licensed under either MIT or CC0, whatever you prefer.
