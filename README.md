@@ -1,6 +1,6 @@
 # fluentd prototype
 
-A very basic fluentd evaluation playground. This is largely built upon the [official](https://hub.docker.com/r/fluent/fluentd) [images](https://hub.docker.com/r/fluent/fluent-bit/)
+A very basic [fluentd](https://www.fluentd.org) evaluation playground. This is largely built upon the [official](https://hub.docker.com/r/fluent/fluentd) [images](https://hub.docker.com/r/fluent/fluent-bit/)
 and aims to accoplish the following tasks:
 
 * run a fluentd server
